@@ -1,0 +1,58 @@
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #7749F8;
+    background-color: transparent !important;
+    border-bottom: 1px solid #7749F8;
+
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link {
+    border: 0;
+    color: #343A40;
+
+}
+
+.storebaner {
+    background-image: url('../Images/soterbaner.png');
+    background-repeat: no-repeat;
+    height: 50vh;
+
+}
+.storeprofile{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.DataForm{
+    margin-top: -23rem;
+}
+
+/* Responsivness */
+
+@media only screen and (max-width: 281px) {}
+
+
+@media only screen and (max-width: 575px) {}
+
+@media only screen and (max-width: 769px) {}
+
+@media only screen and (max-width: 991px) {
+    .storebaner {
+        background-image: url('../Images/soterbaner.png');
+        background-repeat: no-repeat;
+        height: 32vh;
+    
+    }
+    .DataForm{
+        margin-top: unset;
+    }
+}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (max-width: 1360px) {}
+
+@media only screen and (max-width: 1600px) {}
+
+@media only screen and (max-width: 1920px) {}

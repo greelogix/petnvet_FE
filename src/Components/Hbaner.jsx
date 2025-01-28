@@ -1,12 +1,13 @@
 import { Col, Container, Row } from "react-bootstrap";
 import "../Assets/Css/Home.css";
+import "../Assets/Css/Fontsize.css"
 import Banerimg from "../Assets/Images/random-institute-wn2BLotE8oY-unsplash 1.png";
 
 function ListLink() {
   return (
     <Container fluid className="bg-white">
       <Row className="py-5">
-        <Col lg={6} sm={12}>
+        <Col lg={6} xs={12}>
           <Col lg={10}>
             <h1 className="mainheading marginTop">
               Everything Your Pet Desires, All in One Place.
@@ -19,7 +20,7 @@ function ListLink() {
           </Col>
         </Col>
 
-        <Col lg={6} sm={12} className="text-center">
+        <Col lg={6} xs={12} className="text-center">
           <img src={Banerimg} alt="..." className="img-fluid HbanerImg" />
         </Col>
       </Row>

@@ -5,75 +5,92 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 import Logo from "../Assets/Images/Logo.png";
 import BtnIcon from "../Assets/Images/Icon Button.png";
+import Searchbtn from "../Assets/Images/searchBtn.png";
 import "../Assets/Css/HeaderCss.css";
+import "../Assets/Css/Fontsize.css"
 
 function Header() {
   return (
     <>
-      {/* <Navbar className="bg-white">
+      <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img src={Logo} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
-          
-
-              <Form inline className=" mx-2 inputwidth">
-                <InputGroup>
+              <Form inline className="NavForm">
+                <InputGroup className="">
                   <Form.Control
                     placeholder="Username"
                     aria-label="Username"
                     aria-describedby="basic-addon1"
                   />
-                  <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
+                  <InputGroup.Text id="basic-addon1"><img src={Searchbtn}/> </InputGroup.Text>
                 </InputGroup>
               </Form>
-          
-              <Button type="btn" className="openBtn  mx-2">
-                Open shope
-              </Button>
-         
-              <Button type="btn" className="openBtn  mx-2">
-                <p className="d-flex">
-                  Contact
-                  <img src={BtnIcon} />
-                </p>
-              </Button>
-            
+              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="#link">Link</Nav.Link>
+              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">
+                  Another action
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">
+                  Something
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="#action/3.4">
+                  Separated link
+                </NavDropdown.Item>
+              </NavDropdown>
             </Nav>
           </Navbar.Collapse>
         </Container>
-      </Navbar> */}
+      </Navbar>
 
-      {/* <Container fluid>
-        <Row className="justify-content-cetner bg-dark text-white">
-          <Col lg={12} md={6} sm={6}className="text-center navundernavbar">
-            <Link to="#" className="">
-              Pet Stores
-            </Link>
-            <Link to="#" className="">
-              Products
-            </Link>
-            <Link to="#" className="">
-              Vets
-            </Link>
-            <Link to="#" className="">
-              Traning
-            </Link>
-            <Link to="#" className="">
-              Grooming
-            </Link>
-            <Link to="#" className="">
-              Buy & Sell
-            </Link>
-            <Link to="#" className="">
-              Adopt
-            </Link>
+      <Container fluid>
+        <Row className="d-flex justify-content-cetner align-item-center text-center bg-dark text-white">
+          <Col lg={12} md={12} sm={12} className="text-center navundernavbar">
+            <Button className="flex-sm-{grow|shrink}-0 bg-transparent border-0">
+              <Link to="/store" className="">
+                Pet Stores
+              </Link>
+            </Button>
+            <Button className="flex-sm-{grow|shrink}-0 bg-transparent border-0">
+              <Link to="#" className="">
+                Products
+              </Link>
+            </Button>
+            <Button className="flex-sm-{grow|shrink}-0 bg-transparent border-0">
+              <Link to="#" className="">
+                Vets
+              </Link>
+            </Button>
+            <Button className="flex-sm-{grow|shrink}-0 bg-transparent border-0">
+              <Link to="#" className="">
+                Traning
+              </Link>
+            </Button>
+            <Button className="flex-sm-{grow|shrink}-0 bg-transparent border-0">
+              <Link to="#" className="">
+                Grooming
+              </Link>
+            </Button>
+            <Button className="flex-sm-{grow|shrink}-0 bg-transparent border-0">
+              <Link to="#" className="">
+                Buy & Sell
+              </Link>
+            </Button>
+            <Button className="flex-sm-{grow|shrink}-0 bg-transparent border-0">
+              <Link to="#" className="">
+                Adopt
+              </Link>
+            </Button>
           </Col>
         </Row>
-      </Container> */}
+      </Container>
     </>
   );
 }

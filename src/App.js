@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Mainlayout from './Components/Mainlayout/Mainlayout'
 import Home from './Views/Home'
+import Store from './Views/Store';
 
 
 function App() {
@@ -13,8 +14,8 @@ function App() {
         <Routes>
           <Route path="" element={<Mainlayout />}>
             <Route path="/" element={<Home />} />
-            {/* <Route path="/productlist" element={<Productlist />} />
-            <Route path="/list" element={<List />} />
+            <Route path="/store" element={<Store />} />
+           {/*  <Route path="/list" element={<List />} />
             <Route path="/register" element={<Register />} />
             <Route path="/addlist" element={<Addlist />} />
             <Route path="/trial" element={<Trial />} />

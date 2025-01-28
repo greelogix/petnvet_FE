@@ -9,14 +9,15 @@ import { foodstore } from "../Constants/GlobleConstants";
 import { traininglist } from "../Constants/GlobleConstants";
 import { groominglist } from "../Constants/GlobleConstants";
 import { petlist } from "../Constants/GlobleConstants";
+import Uperfooter from "../Components/Uperfooter";
 
 function Home() {
   return (
     <>
       <Container fluid>
         <Row>
-           <Hbaner /> 
-           <Products /> 
+          <Hbaner />
+          <Products />
           <MainComponent title="Pet Store" data={petstore} />
           <MainComponent title="Food Stores" data={foodstore} />
           <MainComponent title="Vets" data={vetlist} />
@@ -24,8 +25,8 @@ function Home() {
           <MainComponent title="Grooming Service" data={groominglist} />
           <MainComponent title="Buy a Pet" data={petlist} />
           <MainComponent title="Buyer Request" data={petlist} />
-
-
+          <MainComponent title="Adopt a Pet" data={petlist} />
+          <Uperfooter />
         </Row>
       </Container>
     </>

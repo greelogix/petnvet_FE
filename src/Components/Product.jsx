@@ -9,6 +9,7 @@ import Groupfive from "../Assets/Images/Group (5).png";
 import Store from "../Assets/Images/Pet Buy and Sell.png";
 import Group from "../Assets/Images/Group.png";
 import "../Assets/Css/Home.css";
+import "../Assets/Css/Fontsize.css"
 
 function Products() {
   const Listlink = [

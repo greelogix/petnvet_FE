@@ -10,7 +10,7 @@ function CardUI({ listData }) {
     <Container fluid className="mt-3">
     <Row>
       {listData.map((list) => (
-        <Col lg={3} md={6} sm={12} key={list.Id} className="mb-4 ">
+        <Col lg={3} md={6} xs={12} key={list.Id} className="mb-4 ">
           <Card className="border-0 radius8 pb-3">
             <img src={list.Images} alt={list.Name} className="storeCard img-fluid"/> 
             <h5 className="heading20 mt-3 mb-0 ms-3">{list.Rs}</h5>

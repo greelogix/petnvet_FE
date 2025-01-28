@@ -9,7 +9,7 @@ function ListLink({ listData }) {
   return (
     <Container fluid className="mt-5">
       <Row>
-        <Col md={12} sm={6}>
+        <Col md={12} xs={6}>
           <Card className="bg-white border-0 px-2">
             <Row>
               {listData.map((list) => (

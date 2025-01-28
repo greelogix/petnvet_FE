@@ -1,34 +1,7 @@
-.mainheading{
-    font-size: 40px;
-    font-weight: 700;
-}
-.heading20{
-    font-size: 20;
-    font-weight: 600;
-}
-.heading32{
-    font-size: 32;
-    font-weight: 700;
-}
-.font16 {
-    font-size: 16;
-    font-weight: 400;
-}
-.font21{
-    font-size: 21;
-    font-weight: 400;
-}
-.font20{
-    font-size: 20;
-    font-weight: 600;
-}
-.font16{
-    font-size: 16;
-    font-weight: 400;
-}
+
 
 body{
-    background-color: rgb(238, 235, 235);
+    background-color: #EBE5FC;
 }
 
 .LinkIamges {
@@ -43,6 +16,9 @@ body{
 .marginTop{
     margin-top: 8rem;
 }
+.FmarginTop{
+    margin-top: 6rem;
+}
 .radius8{
     border-radius: 8px;
 }
@@ -50,3 +26,54 @@ body{
    border-top-left-radius: 8px ;
    border-top-right-radius: 8px ;
 }
+.uperfooter{
+    background-image: url('../Images//uperfooter.png');
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.CrdOpnBtn{
+    width: max-content;
+    background-color: #7749F8;
+    border: 0;
+    color: white;
+    border-radius: 6px;
+}
+.viewAll a{
+    text-decoration: none;
+    color: #6610F2;
+}
+
+/* Responsivness */
+
+@media only screen and (max-width: 281px) {}
+
+
+@media only screen and (max-width: 575px) {}
+
+@media only screen and (max-width: 769px) {}
+
+@media only screen and (max-width: 991px) {
+    .uperfooter{
+        background-image: url('../Images//uperfooter.png');
+        height: unset;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+    }
+    .marginTop{
+        margin-top: unset;
+    }
+    .FmarginTop{
+        margin-top: unset;
+    }
+}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (max-width: 1360px) {}
+
+@media only screen and (max-width: 1600px) {}
+
+@media only screen and (max-width: 1920px) {}
