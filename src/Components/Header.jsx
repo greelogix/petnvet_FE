@@ -59,7 +59,7 @@ function Header() {
               </Link>
             </Button>
             <Button className="flex-sm-{grow|shrink}-0 bg-transparent border-0">
-              <Link to="#" className="">
+              <Link to="Products" className="">
                 Products
               </Link>
             </Button>

@@ -1,0 +1,28 @@
+.setsize{
+    height: 40px;
+    width: 40px;
+}
+
+.btnsize{
+    background-color: #28A745;
+    border: 0;
+    color: white;
+    width: max-content;
+}
+.btnsizeone{
+    background-color: #FFC107;
+    border: 0;
+    color: white;
+    width: max-content;
+}
+.setprofilesize{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.submitBtn{
+    background-color: #7749F8;
+    color:white;
+    border: 0;
+}
