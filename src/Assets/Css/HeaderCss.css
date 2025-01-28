@@ -1,0 +1,13 @@
+.openBtn {
+    height: 42px;
+    width: max-content;
+}
+
+.navundernavbar a {
+    text-decoration: none !important;
+    color: white;
+    padding: 2rem;
+}
+.navundernavbar {
+    padding: 1rem;
+}
